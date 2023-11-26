@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div>
       <div class="footer d-md-flex justify-content-between">
-        <img src = {logo} />
+        <img src = {logo} alt='description'/>
         <div  >
             Quick Links
             <ul style={{ backgroundColor : dark ? "black" : "", color: dark ? "white" : "" }} className=' list-unstyled abs'>
@@ -38,7 +38,7 @@ function Footer() {
           <div style={{  backgroundColor : dark ? "black" : "", color: dark ? "white" : "",  fontSize:"12px" }}  >© 2023 Google</div>
           <div style={{ backgroundColor : dark ? "black" : "", color: dark ? "white" : "", fontSize:"12px" }} >
             Powerded By
-            <img  class="ms-2" src={power} />
+            <img  class="ms-2" src={power} alt='description'/>
           </div>
         </div>
     </div>

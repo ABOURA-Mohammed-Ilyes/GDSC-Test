@@ -1,6 +1,4 @@
 import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
-import mark from "../pics/mark.jpg"
 import { ThemeContext } from '../App';
 
 function About() {

@@ -11,7 +11,7 @@ function Events() {
         {
             event.map(i=>
                     <div  key={i.id} class= "text-center col-lg-3 col-xl-3 col-md-12 col-sm-12 mt-md-5">
-                        <img style={{ borderRadius: "50%" }} width="150" src={i.img} />
+                        <img style={{ borderRadius: "50%" }} width="150" src={i.img} alt='description'/>
                         <div class="squre text-center">
                             <p class=" mt-4">{i.date}</p>
                             <p class="fw-bolder" style={{ backgroundColor : dark ? "black" : "", color: dark ? "white" : "#29153d" }}>{i.type}</p>
