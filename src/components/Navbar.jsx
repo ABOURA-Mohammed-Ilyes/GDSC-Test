@@ -26,7 +26,7 @@ function Navbar() {
     <div style={{ backgroundColor : dark ? "black" : "", color: dark ? "white" : "" }}  class="navbar d-lg-flex border-bottom align-items-center justify-content-between position-relative">
         <i onClick={NabBars} style={{ fontSize: "16px" }} class="fa-solid fa-bars d-lg-none "></i>
         <div>
-            <img src={logo} alt='description'/>
+            <img src={logo} />
            
         </div>
         <i onClick={displaySearch} style={{ fontSize: "16px" }} class="d-lg-none ms-3 fa-solid fa-magnifying-glass"></i>
