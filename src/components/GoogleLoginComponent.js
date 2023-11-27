@@ -22,11 +22,11 @@ const GoogleLoginComponent = () => {
 
     return (
         <div>
-            {isLoggedIn ? (
+            
                 <button onClick={handleLogout}>Logout</button>
-            ) : (
+            
                 <button onClick={handleLogin}>Login with Google</button>
-            )}
+            
         </div>
     );
 };
