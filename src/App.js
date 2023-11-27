@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
 import Events from './components/Events';
@@ -29,7 +29,7 @@ function App() {
               <i style={{ fontSize: "30px", zIndex: "4", left: 34 }} className="fa-solid fa-circle-half-stroke position-fixed top-50"></i>
             </button>
             <Header/>
-            <Switch>
+            <Routes>
               <Route exact path="/" component={About} />
               <Route path="/events" component={Events} />
               <Route path="/organizer" component={Organizer} />
@@ -37,7 +37,7 @@ function App() {
               <Route path="/login" component={GoogleLoginComponent} />
               <Route path="/user-info" component={UserInfo} />
               {/* Ajoutez d'autres routes si nécessaire */}
-            </Switch>
+            </Routes>
             <hr></hr>
             <Footer />
           </div>
